@@ -12,7 +12,6 @@ class ScreenWidget : public QWidget
 
 public:
     explicit ScreenWidget(QWidget *parent = 0);
-    //void paintEvent(QPaintEvent *);
 
 signals:
     void qmlobject_to_nav(QmlObject *obj);

@@ -22,14 +22,6 @@ ScreenWidget::ScreenWidget(QWidget *parent) : QWidget(parent)
     emit current_changed(current);
 }
 
-/*void ScreenWidget::paintEvent(QPaintEvent *)
-{
-    QStyleOption opt;
-    opt.init(this);
-    QPainter p(this);
-    style()->drawPrimitive(QStyle::PE_Widget, &opt, &p, this);
-}*/
-
 void ScreenWidget::change_current(QmlObject *newcurrent)
 {
     current = newcurrent;
