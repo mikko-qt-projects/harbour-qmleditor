@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>images/pagebg.jpg</file>
+        <file>images/page-background.jpg</file>
+        <file>images/switch.png</file>
+    </qresource>
+</RCC>
